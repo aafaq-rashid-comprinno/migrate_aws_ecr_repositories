@@ -12,7 +12,7 @@ def create_ecr_repository(destination_ecr_client, repository_name):
         repositoryName=repository_name,
          encryptionConfiguration={
         'encryptionType': 'KMS',
-        'kmsKey': 'aadc3145-ee7dsd3-42f3-9d42-ca5da9drsdf0f'  # Replace with your KMS key in destination account 
+        'kmsKey': '<KMS_KEY_ID>' #'kmsKey': 'aadc3145-ee7dsd3-42f3-9d42-ca5da9drsdf0f'  # Replace with your KMS key in destination account 
         },
         imageScanningConfiguration={
         'scanOnPush': True
