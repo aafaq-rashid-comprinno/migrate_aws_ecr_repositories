@@ -29,7 +29,7 @@ The script is designed to be configurable by specifying AWS profiles, source and
 - **Usage**: 
   1. **Configure AWS Profiles**: Set up AWS profiles for the source (Prod) and destination (DR) AWS accounts using the AWS CLI.
 
-  2. **Run the Script**: Execute the script using Python 3.x (`python script_name.py`).
+  2. **Run the Script**: Execute the script using Python 3.x (`python ecr.py`).
 
   3. **Automated Replication**: The script will automatically:
    - Retrieve ECR repositories from the source AWS account.
