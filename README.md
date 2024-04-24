@@ -23,7 +23,7 @@ The script is designed to be configurable by specifying AWS profiles, source and
 2. Ensure you have the necessary permissions and configurations for AWS CLI for both source and destination profiles.
 
 ###
-### 2. `migrate_ecr`
+### 2. `migrate aws ecr`
 
 - **Purpose**: The purpose of this script is to automate the replication of Amazon Elastic Container Registry (ECR) repositories from a source AWS account to a destination AWS account. It is designed to facilitate disaster recovery (DR) scenarios where it's essential to have redundant copies of Docker images stored in ECR repositories across different AWS accounts. By automating this process, the script ensures consistency and reliability in maintaining ECR repositories in both the production (Prod) and DR environments..
 - **Usage**: 
